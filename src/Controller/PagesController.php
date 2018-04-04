@@ -40,6 +40,8 @@ class PagesController extends AppController
      */
     public function display(...$path)
     {
+
+        debug('buceta');
         $count = count($path);
         if (!$count) {
             return $this->redirect('/');
