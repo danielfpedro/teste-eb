@@ -2,6 +2,10 @@ branch-defaults:
   master:
     environment: dev-env
     group_suffix: null
+environment-defaults:
+  dev-env:
+    branch: null
+    repository: null
 global:
   application_name: teste-eb
   branch: null
